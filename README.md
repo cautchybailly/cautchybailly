@@ -14,7 +14,7 @@ Before this I spent five years in enterprise support (Michelin, GE), working ide
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**aws-waf-soar-platform**](https://github.com/cautchybailly/fides) | WAF logs → Bedrock analysis → threat correlation → automated SOAR incidents, an executive PDF briefing, and compliance evidence mapped to NIST CSF 2.0 / CIS v8 / PCI DSS 4.0 / ISO 27001. Five Terraform modules. | Terraform, WAFv2, Lambda, Bedrock, DynamoDB, EventBridge, S3 |
+| [**Fides**](https://github.com/cautchybailly/fides) | Continuous compliance evidence. Validators test live AWS infrastructure and map each verdict to NIST CSF 2.0, CIS v8, PCI DSS 4.0 and ISO 27001, fed by a WAF → Bedrock → correlation → SOAR pipeline. Five Terraform modules. [Demo](https://cautchybailly.github.io/fides/demo/) | Terraform, WAFv2, Lambda, Bedrock, DynamoDB, EventBridge, S3 |
 | [**secure-serverless-api**](https://github.com/cautchybailly/secure-serverless-api) | Zero-bypass REST API: regional WAF, Cognito MFA, group RBAC, a custom JWT authorizer at the edge, token telemetry and an unused-token detector. | Terraform, API Gateway, Cognito, Lambda (Python/Node), SNS |
 | [**flightsearch**](https://github.com/cautchybailly/flightsearch) | Self-contained Bash CLI for flight search on the Amadeus API. | Bash, REST APIs |
 
@@ -22,18 +22,18 @@ Before this I spent five years in enterprise support (Michelin, GE), working ide
 
 - **No bypass paths.** If a WAF is in the design, every route goes through it.
 - **Failure modes get engineered out.** I don't leave them for someone to document later.
-- **Modules, wired outputs to inputs, validated one at a time.** Each one gets `plan`, `apply` and `destroy` before the next.
+- **Modules, wired outputs to inputs, validated one at a time.** Each one gets 'plan', 'apply' and 'destroy' before the next.
 - **READMEs someone can follow.** Requirements, steps, artifacts, teardown and troubleshooting are always there.
 
 ### Toolbox
 
-`AWS` `Terraform` `Python` `Node.js` `Bash` `Lambda` `API Gateway` `WAFv2` `Cognito` `DynamoDB` `EventBridge` `Bedrock` `IAM` `CloudWatch` `Git`
-Currently going deeper on: `Kubernetes` `Grafana` `Prometheus`
+'AWS' 'Terraform' 'Python' 'Node.js' 'Bash' 'Lambda' 'API Gateway' 'WAFv2' 'Cognito' 'DynamoDB' 'EventBridge' 'Bedrock' 'IAM' 'CloudWatch' 'Git'
+Currently going deeper on: 'Kubernetes' 'Grafana' 'Prometheus'
 
 📫 cautchy@proton.me · [LinkedIn](https://www.linkedin.com/in/cautchybailly)
 
 <!--
-**cautchybailly/cautchybailly** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**cautchybailly/cautchybailly** is a ✨ _special_ ✨ repository because its 'README.md' (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
