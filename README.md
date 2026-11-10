@@ -14,7 +14,7 @@ Before this I spent five years in enterprise support (Michelin, GE), working ide
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**aws-waf-soar-platform**](https://github.com/cautchybailly/aws-waf-soar-platform) | WAF logs → Bedrock analysis → threat correlation → automated SOAR incidents, an executive PDF briefing, and compliance evidence mapped to NIST CSF 2.0 / CIS v8 / PCI DSS 4.0 / ISO 27001. Five Terraform modules. | Terraform, WAFv2, Lambda, Bedrock, DynamoDB, EventBridge, S3 |
+| [**aws-waf-soar-platform**](https://github.com/cautchybailly/fides) | WAF logs → Bedrock analysis → threat correlation → automated SOAR incidents, an executive PDF briefing, and compliance evidence mapped to NIST CSF 2.0 / CIS v8 / PCI DSS 4.0 / ISO 27001. Five Terraform modules. | Terraform, WAFv2, Lambda, Bedrock, DynamoDB, EventBridge, S3 |
 | [**secure-serverless-api**](https://github.com/cautchybailly/secure-serverless-api) | Zero-bypass REST API: regional WAF, Cognito MFA, group RBAC, a custom JWT authorizer at the edge, token telemetry and an unused-token detector. | Terraform, API Gateway, Cognito, Lambda (Python/Node), SNS |
 | [**flightsearch**](https://github.com/cautchybailly/flightsearch) | Self-contained Bash CLI for flight search on the Amadeus API. | Bash, REST APIs |
 
