@@ -30,7 +30,7 @@ Before this I spent five years in enterprise support (Michelin, GE), working ide
 'AWS' 'Terraform' 'Python' 'Node.js' 'Bash' 'Lambda' 'API Gateway' 'WAFv2' 'Cognito' 'DynamoDB' 'EventBridge' 'Bedrock' 'IAM' 'CloudWatch' 'Git'
 Currently going deeper on: 'Kubernetes' 'Grafana' 'Prometheus'
 
-📫 cautchy@proton.me · [LinkedIn](https://www.linkedin.com/in/cautchybailly)
+[LinkedIn](https://www.linkedin.com/in/cautchybailly)
 
 <!--
 **cautchybailly/cautchybailly** is a ✨ _special_ ✨ repository because its 'README.md' (this file) appears on your GitHub profile.
