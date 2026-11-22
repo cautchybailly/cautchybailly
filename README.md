@@ -14,7 +14,7 @@ Before this I spent five years in enterprise support (Michelin, GE), working ide
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Fides**](https://github.com/cautchybailly/fides) | Continuous compliance evidence. Validators test live AWS infrastructure and map each verdict to NIST CSF 2.0, CIS v8, PCI DSS 4.0 and ISO 27001, fed by a WAF → Bedrock → correlation → SOAR pipeline. Five Terraform modules. [Demo](https://cautchybailly.github.io/fides/demo/) | Terraform, WAFv2, Lambda, Bedrock, DynamoDB, EventBridge, S3 |
+| [**Fides**](https://github.com/cautchybailly/fides) | Continuous compliance evidence. Validators test live AWS infrastructure and map each verdict to NIST CSF 2.0, CIS v8, PCI DSS 4.0 and ISO 27001, fed by a WAF → Bedrock → correlation → SOAR pipeline. Five Terraform modules | Terraform, WAFv2, Lambda, Bedrock, DynamoDB, EventBridge, S3 |
 | [**secure-serverless-api**](https://github.com/cautchybailly/secure-serverless-api) | Zero-bypass REST API: regional WAF, Cognito MFA, group RBAC, a custom JWT authorizer at the edge, token telemetry and an unused-token detector. | Terraform, API Gateway, Cognito, Lambda (Python/Node), SNS |
 | [**flightsearch**](https://github.com/cautchybailly/flightsearch) | Self-contained Bash CLI for flight search on the Amadeus API. | Bash, REST APIs |
 
